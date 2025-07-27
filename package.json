@@ -1,0 +1,23 @@
+{
+  "name": "wifi-file-sharing",
+  "version": "1.0.0",
+  "description": "Share files over local WiFi network",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": ["file-sharing", "wifi", "network", "upload", "download"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "cors": "^2.8.5",
+    "qrcode": "^1.5.3",
+    "socket.io": "^4.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
